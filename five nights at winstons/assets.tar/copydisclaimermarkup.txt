@@ -1,0 +1,19 @@
+<p>This game is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.</p>
+<p>So when you play this you're probably going to be like "wtf he stole so many assests from fnaf" but actually the static animation is basically the only asset in the whole game directly from a fnaf exe. Everything else (sound effects, theme music, etc) has either been independantly recreated by me or independantly rediscovered on the internet to be available for download by it's original author. Like, go to retired.sounddogs.com and search 'television static' and listen to the first result if you want an example of what I mean.</p>
+<p>
+Open Source Software Used:
+<ul>
+<li>js-untar [https://github.com/InvokIT/js-untar]</li>
+</ul>
+</p>
+<p>
+3D Models Used:
+<ul>
+<li>'apple' [https://s.deev.is/4vc4cUi]</li>
+<li>'orange' [https://s.deev.is/HMDCRTW]</li>
+<li>'bannana' [https://s.deev.is/gGyQRUq]</li>
+<li>'other product water bottle' [https://s.deev.is/bs9c3dB]</li>
+<li>'eyeball 3d model' [https://s.deev.is/xxyDgTp]</li>
+</ul>
+Otherwise I created every last 3D asset myself. It took about a month and a half if you were wondering.
+</p>

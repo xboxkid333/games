@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+          <title>DuckLife 1</title>
+        <meta charset='utf8'>
+    </head>
+    <body>
+        <div id='ruffle'></div>
+        <script src='ruffle.js'></script>
+        <script>
+var swfobject = {};
+
+swfobject.embedSWF = function(url, cont, width, height){
+    var ruffle = window.RufflePlayer.newest(),
+        player = Object.assign(document.getElementById(cont).appendChild(ruffle.createPlayer()), {
+            width: width,
+            height: height,
+            style: 'width: ' + width + 'px; height: ' + height + 'px',
+        });
+    player.style.width = "100%";
+    player.style.height = "100%";
+    player.load({ url: url });
+}
+
+swfobject.embedSWF('DuckLife1.swf');
+        </script>
+    </body>
+</html>
