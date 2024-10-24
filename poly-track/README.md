@@ -6,10 +6,6 @@
 
 **Do not run without the other files. It will not work, don't even try.**
 
-here the preview deployment just so you can see the game 
-
- https://do-not-dusturb.github.io/polytrack/ 
-
 ## Game Information
 
 This is a game thing called polytrack. Please read the following:
@@ -32,7 +28,7 @@ just have it run the main HTML file and it will work fine.
 
 ## Credits
 
-Please ensure you give credit to the original creator of [PolyTrack](https://kotaku.com/games/polytrack).
+**Please ensure you give credit to the original creator of [PolyTrack](https://kotaku.com/games/polytrack).**
 
 ---
 
