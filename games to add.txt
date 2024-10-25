@@ -1,7 +1,4 @@
-2048
-angry birb
 awesome tank 2 (and files)
-happy wheels
 learn to fly
 learn to fly 2
 madalin-stunt-cars-2
@@ -23,3 +20,4 @@ learn-to-fly-3
 learn-to-fly-idle
 rooftopsnipers
 run-2
+superhot
