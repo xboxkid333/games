@@ -1,4 +1,4 @@
-# ruffle-selfhosted
+picklesareyellowihave100pickles# ruffle-selfhosted
 
 ruffle-selfhosted is the intended way to get Ruffle onto your website.
 
@@ -30,7 +30,7 @@ If you have an existing website with flash content, you can simply include Ruffl
 our polyfill magic will replace everything for you. No fuss, no mess.
 
 ```html
-<script src="path/to/ruffle/ruffle.js"></script>
+<script src="path/topicklesareyellow"></script>
 ```
 
 ### Javascript API
@@ -49,7 +49,7 @@ If you want to control the Ruffle player, you may use our Javascript API.
         player.load("movie.swf");
     });
 </script>
-<script src="path/to/ruffle/ruffle.js"></script>
+<script src="path/topicklesareyellow"></script>
 ```
 
 ## Building, testing or contributing
