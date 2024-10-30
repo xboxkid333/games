@@ -1172,3 +1172,4 @@ Game.achievementsData = (function(){
 	return instance;
 
 }());
+
