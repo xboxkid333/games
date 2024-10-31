@@ -1,8 +1,9 @@
 # GAME STATUSES 
 ## KEY
 🔴:Down  
-🟡:Bugged but working  
+🟠:Bugged but working  
 🟢:Working  
+🟡:Slow but working
 ---
 |🟢| 10 minutes till dawn  
 |🔴| 1v1 lol  
@@ -19,13 +20,13 @@
 |🟢| BTD 3  
 |🟢| BTD 4  
 |🟢| BTD 5  
-|🟢| Burrito Bison  
+|🟡| Burrito Bison  
 |🟢| challenge the runners  
 |🟢| chrome dino  
 |🟢| cookie clicker  
 |🟢| craft mine  
 |🟢| deal or no deal  
-|🟢| drift hunters  
+|🟡| drift hunters  
 |🟢| duck life 1  
 |🟢| duck life 2  
 |🟢| duck life 3  
@@ -35,11 +36,10 @@
 |🟢| flappy birb  
 |🟢| FNAF 2  
 |🟢| FNAF 3  
-|🟢| Funny Shooter 2  
-|🟢| geometrydash  
+|🟠| Funny Shooter 2  
+|🟢| geometry dash  
 |🟢| Google snake  
 |🟢| hextris  
-|🟢| highway racer  
 |🟢| idle breakout  
 |🟢| idle web tycoon  
 |🟢| impossible quiz  
@@ -51,8 +51,8 @@
 |🟢| learn to fly 3  
 |🟢| learn to fly idle  
 |🟢| madalin stunt cars 2  
-|🟢| madalin stunt cars 3  
-|🟢| makesureitsclosed  
+|🔴| madalin stunt cars 3  
+|🟢| make sure its closed  
 |🟢| missiles  
 |🟢| monkey mart  
 |🟢| moto x3m  
