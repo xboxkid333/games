@@ -1,5 +1,4 @@
 # GAME STATUSES 
----
 ## KEY
 🔴:Down  
 🟡:Bugged but working  
