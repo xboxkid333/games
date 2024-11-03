@@ -25,6 +25,7 @@
 |🟢| chrome dino  
 |🟢| cookie clicker  
 |🟢| craft mine  
+|🟠| crossy-road 
 |🟢| deal or no deal  
 |🟡| drift hunters  
 |🟢| duck life 1  
@@ -56,8 +57,10 @@
 |🟢| missiles  
 |🟢| monkey mart  
 |🟢| moto x3m  
+|🟢| murder  
 |🟢| nintendo 64  
 |🟢| oh flip  
+|🟢| other tag  
 |🟢| OVO  
 |🟢| papa louie  
 |🟢| papas bakeria  
@@ -77,7 +80,8 @@
 |🟢| PC breakdown  
 |🟢| poly track  
 |🟢| push your luck  
-|🟢| ragdoll archers  
+|🟢| ragdoll archers
+|🟢| ragdoll hit  
 |🟢| random r6 op  
 |🟢| retro bowl  
 |🟢| retro bowl collage  
