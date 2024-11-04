@@ -10,9 +10,6 @@
 
 | Status | Game |
 |--------|------|
-|🟢| 10 minutes till dawn  
-|🔴| 1v1 lol  
-|🟢| 2048  
 |🟢| awesome tanks  
 |🔴| awesome tanks 2  
 |🟢| basket random  
@@ -91,11 +88,11 @@
 |🟢| retro bowl  
 |🟢| retro bowl collage  
 |🟢| Riddle school 1  
-|🟢| riddle school 2  
+|🟢| Riddle school 2  
 |🟢| Riddle School 3  
 |🟢| Riddle School 4  
 |🟢| Riddle School 5  
-|🟢| rooftopsnipers  
+|🟢| rooftop snipers  
 |🟢| run 2  
 |🟢| rusty submarine  
 |🟢| scratch egg inc  
@@ -123,3 +120,6 @@
 |🟢| unicycle hero  
 |🟢| volley random  
 |🟢| wheely 1  
+|🟢| 10 minutes till dawn  
+|🔴| 1v1 lol  
+|🟢| 2048  
