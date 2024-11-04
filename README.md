@@ -3,6 +3,7 @@
 ## Key
 - 🔴: Down
 - 🟠: Bugged but working
+- ⚪: Might be blocked
 - 🟢: Working
 - 🟡: Slow but working
 
@@ -11,7 +12,7 @@
 | Status | Game |
 |--------|------|
 |🟢| awesome tanks  
-|🔴| awesome tanks 2  
+|⚪| awesome tanks 2  
 |🟢| basket random  
 |🟢| basketball stars  
 |🟢| bit planes  
