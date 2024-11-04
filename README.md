@@ -27,7 +27,7 @@
 |🟢| chrome dino  
 |🟢| cookie clicker  
 |🟢| craft mine  
-|🟠| crossy-road 
+|🔴| crossy-road 
 |🟢| deal or no deal  
 |🟡| drift hunters  
 |🟢| duck life 1  
