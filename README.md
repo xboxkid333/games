@@ -1,10 +1,15 @@
-# GAME STATUSES 
-## KEY
-🔴:Down  
-🟠:Bugged but working  
-🟢:Working  
-🟡:Slow but working
----
+# Game Statuses
+
+## Key
+- 🔴: Down
+- 🟠: Bugged but working
+- 🟢: Working
+- 🟡: Slow but working
+
+## Game List
+
+| Status | Game |
+|--------|------|
 |🟢| 10 minutes till dawn  
 |🔴| 1v1 lol  
 |🟢| 2048  
