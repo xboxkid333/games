@@ -18,7 +18,7 @@
 - **Wallpaper**
         - [Space wallpaper](https://www.artstation.com/artwork/5B51aW)
   - **Unlisted Games**
-        -[I *and future partners* do not take credit for the games in this website, they are not created or made by us]
+        - I *and future partners* do not take credit for the games in this website, they are not created or made by us
 - *pls dont sue me 🥺*
 
 > # Links
