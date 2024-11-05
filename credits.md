@@ -2,10 +2,6 @@
 
 > # Game Owners
 
-Here's the list with a dash in front of each line:
-
-Certainly! Here’s the list with the links swapped to the game titles:
-
 - **10 Minutes Till Dawn** – [Flanne, 2022](https://flanne.itch.io/10-minutes-till-dawn)  
 - **1v1.LOL** – [JustPlay.LOL, 2020](https://www.justplay.lol)  
 - **2048** – [Gabriele Cirulli, 2014](https://play2048.co/)  
@@ -20,7 +16,7 @@ Certainly! Here’s the list with the links swapped to the game titles:
 - **Challenge the Runners** – [Twoplaygames.org](https://twoplaygames.org/)  
 - **Chrome Dino** – [Google, 2014](https://chromedino.com/)  
 - **Cookie Clicker** – [Orteil, 2013](https://orteil.dashnet.org/cookieclicker/)  
-- **Craft Mine** – IDK  
+- **Craft Mine** – IDK  dont sue me (please)
 - **Deal or No Deal** – [Endemol Shine Group](https://www.nbc.com/deal-or-no-deal), various adaptations since 2005  
 - **Drift Hunters** – [Studionum43, 2017](https://www.crazygames.com/game/drift-hunters)  
 - **Duck Life Series** – [Wix Games, 2008 onward](https://www.ducklife.com/)  
@@ -46,7 +42,7 @@ Certainly! Here’s the list with the links swapped to the game titles:
 - **Nintendo 64** – [Nintendo, 1996](https://www.nintendo.com/)  
 - **OVO** – [Dedra Games, 2020](https://dedragames.com/ovo)  
 - **Papa Louie/Papa’s Series** – [Flipline Studios, 2007 onward](https://www.flipline.com/)  
-- **PC Breakdown** – IDK  
+- **PC Breakdown** – IDK  dont sue me (please)
 - **Poly Track** – [kodub](https://kodub.itch.io/polytrack)  
 - **Push Your Luck** – [Coolmath Games](https://www.coolmathgames.com/0-push-your-luck)  
 - **Retro Bowl** – [New Star Games, 2020](https://www.newstargames.com/retro-bowl)  
@@ -66,13 +62,13 @@ Certainly! Here’s the list with the links swapped to the game titles:
 - **There is No Game** – [kamizoto](https://www.construct.net/en/free-online-games/profile/kamizoto-21069)
 - **Time Shooter Series** – [GoGoMan, 2021 onward](https://www.crazygames.com/game/time-shooter-2)  
 - **Tiny Fishing** – [Inlogic Games, 2020](https://www.crazygames.com/game/tiny-fishing)  
-- **Tomb of the Mask** – [Happymagenta UAB, 2016](https://play.google.com/store/apps/details?id=com.happymagenta.fromcore&hl=en&gl=US)  
-- **Tunnel Rush Series** – [Royale Gamers, 2018](https://www.crazygames.com/game/tunnel-rush)  
+- **Tomb of the Mask** – [Happymagenta UAB, 2016](https://play.google.com/store/apps/details?id=com.happymagenta.fromcore&hl=en&gl=US) - **Tunnel Rush Series** – [Royale Gamers, 2018](https://www.crazygames.com/game/tunnel-rush)  
 - **Unicycle Hero** – [Unept, 2017](https://www.crazygames.com/game/unicycle-hero)  
 - **Volley Random** – [RHM Interactive, 2020](https://www.crazygames.com/game/volley-random)  
 - **Wheely Series** – [Pegas Games, 2014 onward](https://www.crazygames.com/game/wheely)
 - **Unlisted Games** - I *and future partners* do not take credit for the games in this website, they are not created or made by us
-- *pls dont sue me 🥺*
+
+  ############ *pls dont sue me 🥺*
 
 > # Links
 1. **[Main](https://nintendoboi22.github.io)**
