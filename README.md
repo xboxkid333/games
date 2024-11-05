@@ -38,7 +38,7 @@
 |🟢| duck life 4  
 |🟢| eggy car  
 |🟢| evil glitch  
-|🟢| flappy birb  
+|🟢| flappy bird  
 |🟢| FNAF 2  
 |🟢| FNAF 3  
 |🟠| Funny Shooter 2  
@@ -156,7 +156,7 @@
 #### Duck Life Series – Wix Games, 2008 onward
 #### Eggy Car – Martin Magni, 2020
 #### Evil Glitch – Not a Pixel, 2017
-#### Flappy Bird – Dong Nguyen, 2013
+#### Flappy Bird – inspired by Dong Nguyen’s Flappy bird, 2013 (fan project), 2023
 #### FNAF (Five Nights at Freddy's Series) – Scott Cawthon, 2014 onward
 #### Funny Shooter 2 – GoGoMan, 2023
 #### Geometry Dash – RobTop Games, 2013
