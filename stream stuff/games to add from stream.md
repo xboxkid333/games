@@ -18,7 +18,8 @@
 | [getaway shootout](https://1kh0.github.io/projects/getaway-shootout/index.html) |  
 | [bloxors](https://1kh0.github.io/projects/bloxors/index.html) |  
 | more sandbox/car games |  
-| More classic flash games, maybe the run series if you can |  
+| More classic flash games | 
+| More run games |   
 | clicker heros |  
 | [zelda stuff idk](https://github.com/search?q=zelda+clone+language%3AHTML+&type=repositorie) |  
 | granny |  
