@@ -41,7 +41,7 @@
 | more horror |  
 | [8 ball pool](https://www.coolmathgames.com/0-8-ball-pool) |  
 | [drive mad](https://poki.com/en/g/drive-mad) |  
-|  |  
+| [sandtrix](https://www.crazygames.com/game/sandtrix) |  
 |  |  
 |  |  
 |  |  
