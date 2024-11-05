@@ -136,5 +136,5 @@
 
 ### Game credits :D
 
-#### go to gamecredits.md
+#### credits.md
 
