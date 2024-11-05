@@ -68,7 +68,7 @@
 - **Wheely Series** – [Pegas Games, 2014 onward](https://www.crazygames.com/game/wheely)
 - **Unlisted Games** - I *and future partners* do not take credit for the games in this website, they are not created or made by us
 
-  ############ *pls dont sue me 🥺*
+  ###### *pls dont sue me 🥺*
 
 > # Links
 1. **[Main](https://nintendoboi22.github.io)**
