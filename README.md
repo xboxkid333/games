@@ -12,7 +12,7 @@
 | Status | Game |
 |--------|------|
 |🟢| awesome tanks  
-|⚪| awesome tanks 2  
+|🟢| awesome tanks 2  
 |🟢| basket random  
 |🟢| basketball stars  
 |🟢| bit planes  
@@ -106,6 +106,7 @@
 |🟢| soccer random  
 |🟢| sort the court  
 |🟢| space company  
+|🟢| stickman hook  
 |🟢| subway surfers beijing  
 |🟢| subwaysurfers sf  
 |🟢| superhot  
@@ -123,5 +124,5 @@
 |🟢| volley random  
 |🟢| wheely 1  
 |🟢| 10 minutes till dawn  
-|🔴| 1v1 lol  
+|🟢| 1v1 lol  
 |🟢| 2048  
