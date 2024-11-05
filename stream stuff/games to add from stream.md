@@ -1,7 +1,7 @@
 # Hi
 ---
 | GAME | YES/NO |  
-|[Cluster Rush](https://github.com/thepizzaeditions/thepizzaeditions.github.io)|  
+| [Cluster Rush](https://github.com/thepizzaeditions/thepizzaeditions.github.io) |  
 | rest of wheely |  
 | roblox some how |  
 | A top down zombie shooter game |  
