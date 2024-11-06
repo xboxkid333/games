@@ -124,7 +124,8 @@
 |🟢| volley random  
 |🟢| wheely 1  
 |🟢| 10 minutes till dawn  
-|🟢| 1v1 lol  
+|🟢| 1v1 lol 
+|🟢| 2 minute football
 |🟢| 2048  
 
 
