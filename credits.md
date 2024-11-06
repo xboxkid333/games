@@ -1,9 +1,11 @@
 > # shoutout to @[Do-Not-dusturb](https://github.com/Do-Not-Dusturb), my grandmother, and my entire school
 
 > # Game Owners
+## I AND FUTURE PARTNERS DO NOT TAKE CREDIT FOR THE WORK OF THE PEOPLE BELOW
 
 - **10 Minutes Till Dawn** – [Flanne, 2022](https://flanne.itch.io/10-minutes-till-dawn)  
-- **1v1.LOL** – [JustPlay.LOL, 2020](https://www.justplay.lol)  
+- **1v1.LOL** – [JustPlay.LOL, 2020](https://www.justplay.lol)
+- **2 Minute Football** - [IGameBank](https://www.igamebank.com)
 - **2048** – [Gabriele Cirulli, 2014](https://play2048.co/)  
 - **Awesome Tanks** – [emittercritter](https://www.kongregate.com/games/emittercritter)
 - **Awesome Tanks 2** – [emittercritter](https://www.kongregate.com/games/emittercritter)  
