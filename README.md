@@ -1,4 +1,4 @@
-# Game Statuses                                                                    . 
+# Game Statuses                                                                    
 
 ## Key
 - 🔴: Down
