@@ -11,8 +11,8 @@
 
 | Status | Game |
 |--------|------|
-|🟢| awesome tanks  
-|🔴| awesome tanks 2  
+|🔴| awesome tanks  
+|🟢| awesome tanks 2  
 |🟢| basket random  
 |🟢| basketball stars  
 |🟢| bit planes  
