@@ -1,6 +1,5 @@
 # Hi!
 ## Welcome to my sites game files!
----
 ## Markdown files and stuff
 - #### [Game Statuses](Statuses.md)
 - #### [Credits](credits.md)
