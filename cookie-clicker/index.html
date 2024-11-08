@@ -68,8 +68,13 @@ var App=typeof App==='undefined'?0:App;
 <body>
 
 	<script>
-	function () {Game.LoadMod('https://cookiemonsterteam.github.io/CookieMonster/dist/CookieMonster.js');
-}();
+		document.onkeydown = function (e) {
+  if (e.key === 220) {
+      splashText();
+  }};
+
+	function cookieMonster() {Game.LoadMod('https://cookiemonsterteam.github.io/CookieMonster/dist/CookieMonster.js');
+		};
 	</script>
 		
 <div id="wrapper">
