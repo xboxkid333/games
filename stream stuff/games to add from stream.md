@@ -2,7 +2,7 @@
 ---
 | ADDED | GAME |  
 |------|--------|
-[   ] | [Cluster Rush](https://github.com/thepizzaeditions/thepizzaeditions.github.io) |  
+[ x ] | [Cluster Rush](https://github.com/thepizzaeditions/thepizzaeditions.github.io) |  
 [   ] |  rest of wheely |  
 [   ] |  roblox some how |  
 [   ] |  A top down zombie shooter game |  
