@@ -30,7 +30,7 @@
 [   ] | https://github.com/geometrylite/geometrylite.github.io |  
 [   ] | fix crossy road |  
 [   ] | mr mine |  
-[   ] | [sonic](https://github.com/TWS2401/Sonic-CD-WASM?tab=readme-ov-file)(make a console log saying "thanks ethan564571") |  
+[ x ] | [sonic](https://github.com/TWS2401/Sonic-CD-WASM?tab=readme-ov-file)(make a console log saying "thanks ethan564571") |  
 [   ] | [paper.io](https://github.com/eriseven/Paper.io-2?tab=readme-ov-file) |  
 [   ] | [happy wheels](https://github.com/CBGamesdev/chilibowlflash/tree/main/hw) |  
 [   ] |  Doge Miner 2 |  
