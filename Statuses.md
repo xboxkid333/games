@@ -136,7 +136,7 @@
 
 
 
-### Game credits :D
+### Game credits
 
-#### [credits](https://github.com/Nintendoboi222/games/blob/main/credits.md)
+#### [credits](https://nintendoboi222.github.io/games/credits)
 
