@@ -25,7 +25,7 @@
 [   ] | [zelda stuff idk](https://github.com/search?q=zelda+clone+language%3AHTML+&type=repositorie) |  
 [   ] | granny |  
 [   ] | fnaf 1 and 4 |  
-[ X ] | [2 min football](https://2minutefootball.github.io) |  
+[ x ] | [2 min football](https://2minutefootball.github.io) |  
 [   ] | the 2020 game online |  
 [   ] | https://github.com/geometrylite/geometrylite.github.io |  
 [   ] | fix crossy road |  
