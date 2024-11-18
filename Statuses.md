@@ -104,6 +104,7 @@
 |🟢| snake io  
 |🟢| snow rider  
 |🟢| soccer random  
+|🟡| sonic CD
 |🟢| sort the court  
 |🟢| space company  
 |🟢| stickman hook  
