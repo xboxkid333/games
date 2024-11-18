@@ -16,7 +16,7 @@
 [   ] |  Add plane games |  
 [   ] | [papery planes](https://1kh0.github.io/projects/papery-planes/index.html) |  
 [   ] | [n-gon](https://1kh0.github.io/projects/n-gon/index.html) |  
-[   ] | [getaway shootout](https://1kh0.github.io/projects/getaway-shootout/index.html) |  
+[ x ] | [getaway shootout](https://1kh0.github.io/projects/getaway-shootout/index.html) |  
 [   ] | [bloxors](https://1kh0.github.io/projects/bloxors/index.html) |  
 [   ] | more sandbox/car games |  
 [   ] | More classic flash games | 
