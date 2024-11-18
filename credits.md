@@ -55,7 +55,7 @@
 - **Slope** – [Rob Kay, 2014](https://www.slopegame.com/)  
 - **Snake.io** – [Kooapps Games, 2016](https://snake.io/)  
 - **Soccer Random** – [RHM Interactive, 2020](https://www.crazygames.com/game/soccer-random)
-- **Sonic CD** - [Sega 1993](https://www.sega.com/)
+- **Sonic CD** - [Sega, 1993](https://www.sega.com/)
 - **Sort the Court** – [Graeme Borland, 2017](https://graemeborland.itch.io/sort-the-court)  
 - **Space Company** – [sparticle999](https://github.com/sparticle999/SpaceCompany)  
 - **Subway Surfers** – [SYBO Games & Kiloo, 2012](https://subwaysurfers.com/)  
