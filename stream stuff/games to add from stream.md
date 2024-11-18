@@ -1,7 +1,7 @@
 # Hi
 ---
 | ADDED | GAME |  
-|------|--------|
+|------|--------|  
 [ x ] | [Cluster Rush](https://github.com/thepizzaeditions/thepizzaeditions.github.io) |  
 [   ] |  rest of wheely |  
 [   ] |  roblox some how |  
