@@ -6,5 +6,4 @@
 - [3kh0](https://github.com/3kh0/3kh0-lite/tree/main/projects)
 - [stream stuff](/stream%20stuff/)
 - [stickman destruction](https://kbhgames.com/game/stickman-destruction)
-- [bloxorz](https://kbhgames.com/game/bloxorz)
 - [stickman ragdoll playground](https://kbhgames.com/game/stickman-ragdoll-playground)
