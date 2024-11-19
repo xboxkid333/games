@@ -226,18 +226,15 @@ game.indebted$on(false, () => {
 
 
 
-// Add a flag to track the clear state
 let terminalCleared = false;
 
-// Update the clear command
 terminal.addCommand(function clear() {
     if (!terminalCleared) {
         document.querySelector('#terminal').innerHTML = '';
-        terminalCleared = true;
+        terminalCleared = false;
     }
 });
 
-// Reset the flag when a command other than clear is run
 const originalAddCommand = terminal.addCommand;
 terminal.addCommand = function(command) {
     return function(...args) {
