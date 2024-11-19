@@ -226,13 +226,34 @@ game.indebted$on(false, () => {
 
 
 
+// Add a flag to track the clear state
+let terminalCleared = false;
+
+// Update the clear command
 terminal.addCommand(function clear() {
-    document.querySelector('#terminal').innerHTML = '';
+    if (!terminalCleared) {
+        document.querySelector('#terminal').innerHTML = '';
+        terminalCleared = true;
+    }
 });
+
+// Reset the flag when a command other than clear is run
+const originalAddCommand = terminal.addCommand;
+terminal.addCommand = function(command) {
+    return function(...args) {
+        if (command !== clear) {
+            terminalCleared = false;
+        }
+        return originalAddCommand.apply(this, [command, ...args]);
+    };
+};
 
 document.addEventListener('keydown', function(event) {
     if (event.ctrlKey && event.shiftKey && event.key === 'K') {
-        terminal.clear();
+        if (!terminalCleared) {
+            document.querySelector('#terminal').innerHTML = '';
+            terminalCleared = true;
+        }
     }
 });
 
