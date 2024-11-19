@@ -158,7 +158,7 @@ fetch("https://ipv4.wtfismyip.com/json")
     })
     .catch((error) => {
         console.error("Error finding IP address:", error);
-        ipAddress = "Error finding IP address"; 
+        ipAddress = "127.0.0.1"; 
     });
 
 
@@ -231,7 +231,16 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
+terminal.addCommand(function balance() {
+    terminal.log(`Your current balance is ${game.points.toFixed(2)} points.`);
+});
 
+document.querySelector('#terminal-input').addEventListener('input', function(event) {
+    const input = event.target.value;
+    const commands = ['balance', 'help', 'clear', 'charge', 'savemygame', 'loadmygame','achievements','discord','credits','hints','shop']; 
+    const suggestions = commands.filter(command => command.startsWith(input));
+    showSuggestions(suggestions); 
+});
 
 terminal.addCommand(function help() {
     const list = [
@@ -242,6 +251,7 @@ terminal.addCommand(function help() {
         "clear\n- Clears the terminal",
         "github\n- Shows the github repo link.",
         "credits\n- Shows the credits.",
+        "balance\n- Shows your balance."
         "discord\n- Gives a link to the terminus.js discord.",
         "hints\n- Shows a hint.",
         "achievements\n- Shows achievements.",
