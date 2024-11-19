@@ -126,6 +126,8 @@ terminal.addCommand(function weepwarp() {
     open("https://www.youtube.com/watch?v=QH0z8ntGms8");
 })
 
+let ipAddress = "127.0.0.1"; 
+
 terminal.addCommand(function secret() {
     terminal.log("YOUR IP IS:");
     terminal.log(ipAddress);
@@ -134,8 +136,15 @@ terminal.addCommand(function secret() {
 fetch("https://ipv4.wtfismyip.com/json")
     .then((response) => response.json())
     .then((data) => {
-    ipAddress = data.YourFuckingIPAddress;
+        ipAddress = data.YourFuckingIPAddress; 
+    })
+    .catch((error) => {
+        console.error("Error fetching IP address:", error);
+        ipAddress = "Error fetching IP address"; 
     });
+
+
+
 terminal.addCommand(function fullscreen() {
     if (!document.fullscreenElement) {
       document.documentElement.requestFullscreen();
