@@ -124,9 +124,14 @@ terminal.addCommand(function discord() {
 
 terminal.addCommand(function tutorial() {
     [
-        "Run the command 'Charge' to charge your battery",
+        "Run the command 'Charge' to charge your battery",  
+        await sleep(2000);
         "When the battery is full, run the command 'Update' to sell" ,
+        await sleep(2000);
+        "Then run the command shop to buy stuff",
+        await sleep(2000);
     ].forEach((str) => terminal.log(str));
+    game.unlocks.tutorialCompleted = true;
 });
 
 terminal.addCommand(function weepwarp() {
@@ -676,7 +681,14 @@ const overcharged = new Achievement({
     criteria: (p) => p > 15, // default maximum
     action: () => {},
 });
-
+const tutorialAch = new Achievement({
+    name: "Tutorial",
+    description: "Complete the tutorial.",
+    eventValueSubscription: game.unlocks$subscription(),
+    reward: game.xp = game.xp + 5,
+    criteria: (unlocks) => unlocks.tutorialCompleted === true,
+    action: () => {},
+});
 const cod = new fish("Cod", "A silly lil fish", 25, 50)
 
 terminal.addCommand(function catchmeafish() {
