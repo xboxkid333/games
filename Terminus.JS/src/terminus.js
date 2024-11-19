@@ -226,33 +226,33 @@ game.indebted$on(false, () => {
 
 
 
-let terminalCleared = false;
+//let terminalCleared = false;
 
-terminal.addCommand(function clear() {
-    if (!terminalCleared) {
-        document.querySelector('#terminal').innerHTML = '';
-        terminalCleared = false;
-    }
-});
+//terminal.addCommand(function clear() {
+//    if (!terminalCleared) {
+//        document.querySelector('#terminal').innerHTML = '';
+//        terminalCleared = false;
+//    }
+//});
 
-const originalAddCommand = terminal.addCommand;
-terminal.addCommand = function(command) {
-    return function(...args) {
-        if (command !== clear) {
-            terminalCleared = false;
-        }
-        return originalAddCommand.apply(this, [command, ...args]);
-    };
-};
+//const originalAddCommand = terminal.addCommand;
+//terminal.addCommand = function(command) {
+//    return function(...args) {
+//        if (command !== clear) {
+//            terminalCleared = false;
+//        }
+//        return originalAddCommand.apply(this, [command, ...args]);
+//    };
+//};
 
-document.addEventListener('keydown', function(event) {
-    if (event.ctrlKey && event.shiftKey && event.key === 'K') {
-        if (!terminalCleared) {
-            document.querySelector('#terminal').innerHTML = '';
-            terminalCleared = false;
-        }
-    }
-});
+//document.addEventListener('keydown', function(event) {
+//    if (event.ctrlKey && event.shiftKey && event.key === 'K') {
+//        if (!terminalCleared) {
+//            document.querySelector('#terminal').innerHTML = '';
+//           terminalCleared = false;
+//        }
+//    }
+//});
 
 terminal.addCommand(function balance() {
     terminal.log(`Your current balance is ${game.points.toFixed(2)} points.`);
