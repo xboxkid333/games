@@ -114,6 +114,7 @@
 |🟢| superhot  
 |🟢| tag  
 |🟢| tanuki sunset halloween  
+|🟢| Terminus.JS
 |🟢| territorial io  
 |🟢| there is no game  
 |🟢| time shooter 2  
