@@ -249,7 +249,7 @@ document.addEventListener('keydown', function(event) {
     if (event.ctrlKey && event.shiftKey && event.key === 'K') {
         if (!terminalCleared) {
             document.querySelector('#terminal').innerHTML = '';
-            terminalCleared = true;
+            terminalCleared = false;
         }
     }
 });
