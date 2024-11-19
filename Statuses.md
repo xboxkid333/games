@@ -44,6 +44,7 @@
 |🟠| Funny Shooter 2  
 |🟢| geometry dash  
 |🟢| Google snake  
+|🔴| GrindCraft
 |🟢| hextris  
 |🟢| idle breakout  
 |🟢| idle web tycoon  
