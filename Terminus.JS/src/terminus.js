@@ -641,7 +641,7 @@ const ssecret = new Achievement({
     eventValueSubscription: game.points$subscription(),
     criteria: (p) => p <= secret,
     reward: game.xp = game.xp + 5,
-    action: () => terminal.log("Secret Achievement Unlocked!"),
+    action: () => {},
 });
 const outage = new Achievement({
     name: "Outage",
