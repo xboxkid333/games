@@ -61,6 +61,7 @@
 - **Subway Surfers** – [SYBO Games & Kiloo, 2012](https://subwaysurfers.com/)  
 - **Superhot** – [SUPERHOT Team, 2016](https://superhotgame.com/)  
 - **Tanuki Sunset** – [Rewind Games, 2020](https://rewindgames.itch.io/tanuki-sunset)  
+- **Terminus JS** - [rando-idiot](https://github.com/rando-idiot/Terminus.JS/blob/game/src/terminus.js)(they said i could add it :D)
 - **Territorial.io** – [David Tschacher, 2021](https://territorial.io/)  
 - **There is No Game** – [kamizoto](https://www.construct.net/en/free-online-games/profile/kamizoto-21069)
 - **Time Shooter Series** – [GoGoMan, 2021 onward](https://www.crazygames.com/game/time-shooter-2)  
