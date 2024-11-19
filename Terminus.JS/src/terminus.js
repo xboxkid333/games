@@ -260,7 +260,7 @@ terminal.addCommand(function balance() {
 
 document.querySelector('#terminal-input').addEventListener('input', function(event) {
     const input = event.target.value;
-    const commands = ['balance', 'help', 'clear', 'charge', 'savemygame', 'loadmygame','achievements','discord','credits','hints','shop']; 
+    const commands = ['balance', 'help', /*'clear',*/ 'charge', 'savemygame', 'loadmygame','achievements','discord','credits','hints','shop']; 
     const suggestions = commands.filter(command => command.startsWith(input));
     showSuggestions(suggestions); 
 });
@@ -271,7 +271,7 @@ terminal.addCommand(function help() {
         "shop\n- Shows the available purchasable items.",
         "update\n- Increases points. Equivalent of clicking in a clicker game.",
         "charge\n- Gain power.",
-        "clear\n- Clears the terminal",
+      //  "clear\n- Clears the terminal",
         "github\n- Shows the github repo link.",
         "credits\n- Shows the credits.",
         "balance\n- Shows your balance."
