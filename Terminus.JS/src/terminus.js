@@ -138,13 +138,15 @@ let secretCommandExecuted = false;
 
 terminal.addCommand(function secret() {
     if (secretCommandExecuted) {
-        terminal.log("You have already run the secret command.");
+        terminal.log("YOUR IP IS:");
+        terminal.log(ipAddress);
+        terminal.log("You have already got your secret. No more money for you");
     } else {
         terminal.log("YOUR IP IS:");
-        game.points = game.points + 10;
+        terminal.log(ipAddress);
+        game.points = game.points + 5;
         terminal.achievements(secret);
         terminal.achievements(ssecret); 
-        terminal.log(ipAddress);
         secretCommandExecuted = true;
     }
 });
@@ -219,7 +221,15 @@ game.indebted$on(false, () => {
 
 
 
+terminal.addCommand(function clear() {
+    terminal.clear();
+});
 
+document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && event.shiftKey && event.key === 'K') {
+        terminal.clear();
+    }
+});
 
 
 
@@ -229,12 +239,13 @@ terminal.addCommand(function help() {
         "shop\n- Shows the available purchasable items.",
         "update\n- Increases points. Equivalent of clicking in a clicker game.",
         "charge\n- Gain power.",
+        "clear\n- Clears the terminal",
         "github\n- Shows the github repo link.",
         "credits\n- Shows the credits.",
         "discord\n- Gives a link to the terminus.js discord.",
         "hints\n- Shows a hint.",
         "achievements\n- Shows achievements.",
-        "savemygame\n - Saves your game.",
+        "savemygame\n - Saves your game. MAKE SURE TO SAVE",
         "loadmygame\n - Loads your most recent save."
     ];
 
