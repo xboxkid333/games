@@ -227,7 +227,7 @@ game.indebted$on(false, () => {
 
 
 terminal.addCommand(function clear() {
-    terminal.clear();
+    document.querySelector('#terminal').innerHTML = '';
 });
 
 document.addEventListener('keydown', function(event) {
