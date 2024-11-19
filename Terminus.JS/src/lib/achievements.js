@@ -58,8 +58,8 @@ export class Achievement {
                         other.parents.every((p) => Achievement.#all[p].achieved)
                     ) other.#visible = true;
                 });
-                Achievement.#terminal.log("--------------------\nNew Achievement:  + this.name);
-                Achievement.#terminal.log("\n--------------------");
+                Achievement.#terminal.log("--------------------------------------\nNew Achievement:  + this.name);
+                Achievement.#terminal.log("\n--------------------------------------");
 
                 parameters.action();
             },
