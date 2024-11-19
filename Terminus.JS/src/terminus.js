@@ -122,6 +122,13 @@ terminal.addCommand(function discord() {
     ].forEach((str) => terminal.log(str));
 });
 
+terminal.addCommand(function tutorial() {
+    [
+        "Run the command 'Charge' to charge your battery",
+        "When the battery is full, run the command 'Update' to sell" ,
+    ].forEach((str) => terminal.log(str));
+});
+
 terminal.addCommand(function weepwarp() {
     open("https://www.youtube.com/watch?v=QH0z8ntGms8");
 })
@@ -130,6 +137,8 @@ let ipAddress = "127.0.0.1";
 
 terminal.addCommand(function secret() {
     terminal.log("YOUR IP IS:");
+    game.points = game.points + 10
+    terminal.achievements(secret);
     terminal.log(ipAddress);
 });
 
@@ -139,8 +148,8 @@ fetch("https://ipv4.wtfismyip.com/json")
         ipAddress = data.YourFuckingIPAddress; 
     })
     .catch((error) => {
-        console.error("Error fetching IP address:", error);
-        ipAddress = "Error fetching IP address"; 
+        console.error("Error finding IP address:", error);
+        ipAddress = "Error finding IP address"; 
     });
 
 
@@ -606,6 +615,16 @@ const momentum = new Achievement({
     eventValueSubscription: game.points$subscription(),
     criteria: (p) => p >= 1000,
     action: () => {},
+});
+const ssecret = new Achievement({
+    name: "Secret",
+    description: "Its secret",
+    requirements: [],
+    eventValueSubscription: game.points$subscription(),
+    criteria: (p) => p <= secret,
+    reward: game.xp = game.xp + 5,
+    action: () => terminal.log("Secret Achievement Unlocked!"),
+
 });
 const outage = new Achievement({
     name: "Outage",
