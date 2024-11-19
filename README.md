@@ -11,4 +11,4 @@
 - #### [Contact](https://nintendoboi222.github.io/licence-stuff/contact)
 - #### [Private Policy](https://nintendoboi222.github.io/licence-stuff/private-policy)
 - #### [DMCA](https://nintendoboi222.github.io/licence-stuff/dmca)
- ![Join the discord?](https://invidget.switchblade.xyz/KAxqmAjTsm)
+[![Join the discord?](https://invidget.switchblade.xyz/XczEHXJKGe)](https://discord.gg/XczEHXJKGe)
