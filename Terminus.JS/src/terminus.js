@@ -134,12 +134,19 @@ terminal.addCommand(function weepwarp() {
 })
 
 let ipAddress = "127.0.0.1"; 
+let secretCommandExecuted = false;
 
 terminal.addCommand(function secret() {
-    terminal.log("YOUR IP IS:");
-    game.points = game.points + 10
-    terminal.achievements(secret);
-    terminal.log(ipAddress);
+    if (secretCommandExecuted) {
+        terminal.log("You have already run the secret command.");
+    } else {
+        terminal.log("YOUR IP IS:");
+        game.points = game.points + 10;
+        terminal.achievements(secret);
+        terminal.achievements(ssecret); 
+        terminal.log(ipAddress);
+        secretCommandExecuted = true;
+    }
 });
 
 fetch("https://ipv4.wtfismyip.com/json")
@@ -624,7 +631,6 @@ const ssecret = new Achievement({
     criteria: (p) => p <= secret,
     reward: game.xp = game.xp + 5,
     action: () => terminal.log("Secret Achievement Unlocked!"),
-
 });
 const outage = new Achievement({
     name: "Outage",
