@@ -34,6 +34,7 @@
 - **Idle Breakout** – [Kodiqi, 2019](https://www.coolmathgames.com/0-idle-breakout)  
 - **Idle Web Tycoon** – [hthomson](https://www.kongregate.com/games/hthomson)  
 - **Impossible Quiz Series** – [Splapp-me-do, 2007](https://www.newgrounds.com/collection/impossiblequiz)  
+- **IsoCity** - [victorqribeiro](https://github.com/victorqribeiro/isocity)
 - **Jacksmith** – [Flipline Studios, 2012](https://www.flipline.com/games/jacksmith)  
 - **JS Roulette** – [milsaware](https://github.com/milsaware/javascript-roulette)  
 - **Learn to Fly Series** – [Light Bringer Games, 2009 onward](https://www.lightbringer.games/)  
