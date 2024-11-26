@@ -4,7 +4,7 @@
 |------|--------|  
 [ x ] | [Cluster Rush](https://github.com/thepizzaeditions/thepizzaeditions.github.io) |  
 [   ] |  rest of wheely |  
-[   ] |  roblox... some how |  
+[   ] |  roblox... somehow |  
 [   ] |  A top down zombie shooter game |  
 [   ] |  baldis |  
 [   ] |  [final earth](https://www.coolmathgames.com/0-the-final-earth) |  
