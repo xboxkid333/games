@@ -14,7 +14,7 @@
 [   ] |  Sniper Gun Shooting |  
 [   ] | Controller supported Games |  
 [   ] |  Add plane games |  
-[   ] | [papery planes](https://1kh0.github.io/projects/papery-planes/index.html) |  
+[ x ] | [papery planes](https://1kh0.github.io/projects/papery-planes/index.html) |  
 [ x ] | [n-gon](https://1kh0.github.io/projects/n-gon/index.html) |  
 [ x ] | [getaway shootout](https://1kh0.github.io/projects/getaway-shootout/index.html) |  
 [ x ] | [bloxors](https://1kh0.github.io/projects/bloxors/index.html) |  
