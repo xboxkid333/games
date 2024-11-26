@@ -4,7 +4,7 @@
 |------|--------|  
 [ x ] | [Cluster Rush](https://github.com/thepizzaeditions/thepizzaeditions.github.io) |  
 [   ] |  rest of wheely |  
-[   ] |  roblox some how |  
+[   ] |  roblox... some how |  
 [   ] |  A top down zombie shooter game |  
 [   ] |  baldis |  
 [   ] |  [final earth](https://www.coolmathgames.com/0-the-final-earth) |  
@@ -17,7 +17,7 @@
 [   ] | [papery planes](https://1kh0.github.io/projects/papery-planes/index.html) |  
 [ x ] | [n-gon](https://1kh0.github.io/projects/n-gon/index.html) |  
 [ x ] | [getaway shootout](https://1kh0.github.io/projects/getaway-shootout/index.html) |  
-[   ] | [bloxors](https://1kh0.github.io/projects/bloxors/index.html) |  
+[ x ] | [bloxors](https://1kh0.github.io/projects/bloxors/index.html) |  
 [   ] | more sandbox/car games |  
 [   ] | More classic flash games | 
 [   ] | More run games |  
@@ -36,7 +36,7 @@
 [   ] |  Doge Miner 2 |  
 [   ] |  football legends |  
 [   ] |  geo gesser clone |  
-[   ] | Blockpost |  
+[   ] | Blockpost(maybe) |  
 [   ] | fix drift boss |  
 [   ] | more horror |  
 [   ] | [8 ball pool](https://www.coolmathgames.com/0-8-ball-pool) |  
