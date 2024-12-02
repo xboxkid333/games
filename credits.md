@@ -82,3 +82,5 @@
   
 > # DMCA
 - **[DMCA, if needed](https://nintendoboi22.github.io/licence-stuff/dmca)**
+
+- #### future dnd herem dont sue me because i have new lawyer pls and im brokeeeeeee
