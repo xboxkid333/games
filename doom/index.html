@@ -8,7 +8,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <meta name="description" content="Play DOOM via JS-DOS.">
   <meta name="keywords" content="DOOM,pc,game,javscript">
-  <title>DOOM via JS-DOS</title>
+  <title>DOOM</title>
   <meta property="og:title" content='DOOM &middot; js-dos' />
   <meta property="og:description" content="Play in the DOOM in browser." />
   <meta property="og:type" content="game" />
@@ -57,7 +57,6 @@
     id: "DOOM",
     onload: function (dosbox) {
       dosbox_DOOM.run("doom_on_js-dos/DOOM-@evilution.zip", "DOOM.EXE");
-      dosbox_DOOM.requestFullScreen();
     },
     onrun: function (dosbox, app) {
       console.log("App '" + app + "' is runned");
