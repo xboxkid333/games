@@ -29,11 +29,10 @@
     
   <script type="text/javascript" src="js-dos-api.js"></script>
 
-
   <body style="background-color:#121212; color: white">
    
 <style>
-    #DOOM > .dosbox-container { width: 640px; height: 400px; }
+    #DOOM > .dosbox-container { width: 100vw; height: 100vh; }
     #DOOM > .dosbox-container > .dosbox-overlay { background: url("DOOM.png"); }
     #DOOM > .dosbox-container > .dosbox-overlay > .dosbox-start {
         border-radius: 17px 17px 17px 17px;
@@ -52,21 +51,17 @@
 <center>
 <h3><a href="MANUAL.MD">User Manual</a></h3>
 <div style="margin-top:20px;" id="DOOM" class="dosbox-default"></div>
-<p><br /><a id="fullscreen_DOOM" href="javascript: void 0;" class="fa-solid fa-expand"></a>&nbsp;&nbsp;FULLSCREEN</p>
 
 <script type="text/javascript">
   var dosbox_DOOM = new Dosbox({
     id: "DOOM",
     onload: function (dosbox) {
       dosbox_DOOM.run("doom_on_js-dos/DOOM-@evilution.zip", "DOOM.EXE");
+      dosbox_DOOM.requestFullScreen();
     },
     onrun: function (dosbox, app) {
       console.log("App '" + app + "' is runned");
     }
-  });
-
-  document.getElementById("fullscreen_DOOM").addEventListener("click", function() {
-    dosbox_DOOM.requestFullScreen();
   });
 </script>
     </center>
