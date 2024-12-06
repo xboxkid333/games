@@ -50,7 +50,6 @@
     a:link {color:white}
 </style>
 <center>
-<h3><a href="MANUAL.MD">User Manual</a></h3>
 <div style="margin-top:20px;" id="DOOM" class="dosbox-default"></div>
 <p><br /><a id="fullscreen_DOOM" href="javascript: void 0;" class="fa-solid fa-expand"></a>&nbsp;&nbsp;FULLSCREEN</p>
 
@@ -58,7 +57,7 @@
   var dosbox_DOOM = new Dosbox({
     id: "DOOM",
     onload: function (dosbox) {
-      dosbox_DOOM.run("DOOM-@evilution.zip", "DOOM.EXE");
+      dosbox_DOOM.run("DOOM-@evilution.zip", "./DOOM/DOOM.EXE");
     },
     onrun: function (dosbox, app) {
       console.log("App '" + app + "' is runned");
