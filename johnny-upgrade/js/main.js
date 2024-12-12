@@ -35,13 +35,11 @@ var MainState = {
         game.stage.backgroundColor = "#000000";
         game.load.image('black', 'assets/pics/black.gif');
         game.load.image('rotateDevice', 'assets/pics/rotateDevice.png');
-        game.load.image('CoolmathGamesLogo', 'assets/pics/CoolmathGamesLogo.jpg');
         game.load.image('loading1', 'assets/pics/loading1.png');
         game.load.image('preloadBar', 'assets/pics/preloadBar.gif');
     },
     create: function() {
         this.game.stage.disableVisibilityChange = true;
-        world.logo = this.add.sprite(0, game.camera.height / 2, 'CoolmathGamesLogo');
         world.logo.anchor.setTo(0.5);
         world.logo.width = screenWidth;
         world.logo.height = Math.ceil(world.logo.width / 16 * 9);
