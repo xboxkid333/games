@@ -17,7 +17,8 @@
 - **BTD (Bloons Tower Defense Series)** – [Ninja Kiwi, 2007 onward](https://ninjakiwi.com/Games)  
 - **Burrito Bison** – [Juicy Beast, 2011](https://www.crazygames.com/game/burrito-bison)  
 - **Challenge the Runners** – [twoplayergames.org](https://www.twoplayergames.org/)  
-- **Chrome Dino** – [Google, 2014](https://chromedino.com/)  
+- **Chrome Dino** – [Google, 2014](https://chromedino.com/)
+- **COD Zombies** - [NZP Team](https://github.com/nzp-team/nzp-team.github.io)
 - **Cookie Clicker** – [Orteil, 2013](https://orteil.dashnet.org/cookieclicker/)  
 - **Craft Mine** – IDK  dont sue me (please)
 - **Deal or No Deal** – [Endemol Shine Group](https://www.nbc.com/deal-or-no-deal), various adaptations since 2005  
