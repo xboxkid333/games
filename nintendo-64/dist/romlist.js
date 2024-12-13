@@ -7,7 +7,7 @@ var ROMLIST = [
     {url:"roms/TRON Demo (PD).z64",title:"TRON Demo"},
     {url:"roms/TRSI Intro by Ayatollah(POM '98) (PD).z64",title:"TRSI Intro"},
     {url:"roms/Twintris by Twinsen (POM '98) (PD).z64",title:"Twintris"},
-    {url:"roms/OH MYY PCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC.z64",title:"Legend of Zelda: Ocarina of Time"},
+    {url:"roms/The Legend of Zelda - Ocarina of Time (USA).z64",title:"Legend of Zelda: Ocarina of Time"},
     {url:"roms/Top Demo (PD).z64",title:"Tom Demo"},
     {url:"roms/Top Demo (PD).z64",title:"Tom Demo"},
     {url:"roms/Top Demo (PD).z64",title:"Tom Demo"},
