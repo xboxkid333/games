@@ -1,0 +1,2 @@
+cod-zombies/nzp/game.pk3 filter=lfs diff=lfs merge=lfs -text
+nintendo-64/dist/roms/The[[:space:]]Legend[[:space:]]of[[:space:]]Zelda[[:space:]]-[[:space:]]Ocarina[[:space:]]of[[:space:]]Time[[:space:]](USA).z64 filter=lfs diff=lfs merge=lfs -text
