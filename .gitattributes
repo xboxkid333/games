@@ -1,10 +1,1 @@
 cod-zombies/nzp/game.pk3 filter=lfs diff=lfs merge=lfs -text
-nintendo-64/dist/roms/The[[:space:]]Legend[[:space:]]of[[:space:]]Zelda[[:space:]]-[[:space:]]Ocarina[[:space:]]of[[:space:]]Time[[:space:]](USA).z64 filter=lfs diff=lfs merge=lfs -text
-cod-zombies/_config.yml filter=lfs diff=lfs merge=lfs -text
-cod-zombies/default.fmf filter=lfs diff=lfs merge=lfs -text
-cod-zombies/ftewebgl.js filter=lfs diff=lfs merge=lfs -text
-cod-zombies/ftewebgl.wasm filter=lfs diff=lfs merge=lfs -text
-cod-zombies/index.html filter=lfs diff=lfs merge=lfs -text
-cod-zombies/nzp filter=lfs diff=lfs merge=lfs -text
-cod-zombies/nzportable.ico filter=lfs diff=lfs merge=lfs -text
-cod-zombies/CNAME filter=lfs diff=lfs merge=lfs -text
