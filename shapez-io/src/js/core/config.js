@@ -129,7 +129,7 @@ export const globalConfig = {
     },
 
     rendering: {},
-    debug: require("./config.local").default,
+    debug: require("config.local").default,
 
     currentDiscount: 0,
 
