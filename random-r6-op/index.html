@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
 
     <!--Google website stuff-->
     <meta name="description" content="I made this website at school bc I wanted to play games">
@@ -18,7 +19,7 @@
     <style>
         body {
             background-color: #1a1a1a;
-        
+            font-family: 'Oxanium', sans-serif;
         }
 
         /*https://getcssscan.com/css-buttons-examples#:~:text=by-,Typedream,-Button%2035*/
@@ -59,12 +60,12 @@
     </script>
 </head>
 <body onload="setOperators()">
-    <center>
+    <div style="text-align: center;">
         <br><br><br>
         <h1 style="color:#aaaaaa;" class="title">Random Siege Op</h1>
         <br><br>
         <h2 style="color:#aaaaaa;">Attacker: <span id="attacker"></span><br><br>Defender: <span id="defender"></span></h2>
         <br><button class="cool-button" role="button" onclick="setOperators()">New Op?</button>
-    </center>
+    </div>
 </body>
 </html>
