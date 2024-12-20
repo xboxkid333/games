@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DNA to RNA and Amino Acids</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            font-family: 'Oxanium', sans-serif;
+            text-align: center;
+            color: white; 
+            font-size: 1.2em; 
+        }
+
+        .cool-button {
+            background: #5E5DF0;
+            border-radius: 999px;
+            box-shadow: #5E5DF0 0 10px 20px -10px;
+            box-sizing: border-box;
+            color: #FFFFFF;
+            cursor: pointer;
+            font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            opacity: 1;
+            outline: 0 solid transparent;
+            padding: 8px 18px;
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: fit-content;
+            word-break: break-word;
+            border: 0;
+        }
+    </style>
+</head>
+<body><br><br><br><br><br><br><br><br><br>
+    <h1>DNA Converter</h1>
+    <form id="dna-form">
+        <label for="dna-sequence">Enter DNA sequence:</label>
+        <input type="text" id="dna-sequence" name="dna-sequence">
+       <br><br> <button type="submit" class="cool-button">Convert</button>
+    </form>
+    <div id="results"></div>
+    <script>
+        document.getElementById("dna-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            const inputDNA = document.getElementById("dna-sequence").value.toUpperCase();
+            const validNucleotides = new Set(["A", "T", "C", "G"]);
+
+            function dnaToMrna(dna) {
+                const translation = { 'A': 'U', 'T': 'A', 'C': 'G', 'G': 'C' };
+                return dna.split('').map(nucleotide => translation[nucleotide]).join('');
+            }
+
+            function mrnaToAminoAcids(mrna) {
+                const codonTable = {
+                    'AUG': 'M', 'UUU': 'F', 'UUC': 'F',
+                    'UUA': 'L', 'UUG': 'L', 'UCU': 'S', 'UCC': 'S',
+                    'UCA': 'S', 'UCG': 'S', 'UAU': 'Y', 'UAC': 'Y',
+                    'UGU': 'C', 'UGC': 'C', 'UGG': 'W', 'UAA': 'STOP',
+                    'UAG': 'STOP', 'UGA': 'STOP', 'CUU': 'L', 'CUC': 'L',
+                    'CUA': 'L', 'CUG': 'L', 'CCU': 'P', 'CCC': 'P',
+                    'CCA': 'P', 'CCG': 'P', 'CAU': 'H', 'CAC': 'H',
+                    'CAA': 'Q', 'CAG': 'Q', 'CGU': 'R', 'CGC': 'R',
+                    'CGA': 'R', 'CGG': 'R', 'AUU': 'I', 'AUC': 'I',
+                    'AUA': 'I', 'ACU': 'T', 'ACC': 'T', 'ACA': 'T',
+                    'ACG': 'T', 'AAU': 'N', 'AAC': 'N', 'AAA': 'K',
+                    'AAG': 'K', 'AGU': 'S', 'AGC': 'S', 'AGA': 'R',
+                    'AGG': 'R', 'GUU': 'V', 'GUC': 'V', 'GUA': 'V',
+                    'GUG': 'V', 'GCU': 'A', 'GCC': 'A', 'GCA': 'A',
+                    'GCG': 'A', 'GAU': 'D', 'GAC': 'D', 'GAA': 'E',
+                    'GAG': 'E', 'GGU': 'G', 'GGC': 'G', 'GGA': 'G',
+                    'GGG': 'G'
+                    };
+
+                const aminoAcids = [];
+                for (let i = 0; i < mrna.length; i += 3) {
+                    const codon = mrna.substring(i, i + 3);
+                    if (codon in codonTable) {
+                        const aminoAcid = codonTable[codon];
+                        if (aminoAcid === 'STOP') {
+                            aminoAcids.push(aminoAcid);
+                            continue;
+                        }
+                        aminoAcids.push(aminoAcid);
+                    }
+                }
+                return aminoAcids;
+            }
+
+            function mrnaToTrna(mrna) {
+                const translation = { 'A': 'U', 'U': 'A', 'C': 'G', 'G': 'C' };
+                return mrna.split('').map(nucleotide => translation[nucleotide]).join('');
+            }
+
+            if ([...inputDNA].every(nucleotide => validNucleotides.has(nucleotide))) {
+                const mrna = dnaToMrna(inputDNA);
+                const aminoAcids = mrnaToAminoAcids(mrna);
+                const trna = mrnaToTrna(mrna);
+                document.getElementById("results").innerHTML = `
+                    <strong><p>mRNA: ${mrna}</p>
+                    <p>Amino Acids: ${aminoAcids.join(", ")}</p>
+                    <p>tRNA: ${trna}</p></strong>
+                `;
+            } else {
+                document.getElementById("results").textContent = "Invalid DNA sequence.";
+            }
+        });
+    </script>
+</body>
+</html>
