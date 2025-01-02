@@ -1,4 +1,7 @@
 # Hi!
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Nintendoboi22/nintendoboi22.github.io,Nintendoboi222/nintendoboi222.github.io,Nintendoboi222/games&type=Date)](https://star-history.com/#Nintendoboi22/nintendoboi22.github.io&Nintendoboi222/nintendoboi222.github.io&Nintendoboi222/games&Date)
+
 ## Welcome to my sites game files!
 ## Markdown files and stuff
 - #### [Game Statuses](Statuses.md)
