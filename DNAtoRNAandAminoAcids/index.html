@@ -127,9 +127,9 @@
             const trna = mrnaToTrna(mrna);
             const resultHTML = `
                 <div class="results">
-                    <div class="draggable" draggable="true" id="mrna"><strong>mRNA: ${mrna}</strong></div>
-                    <div class="draggable" draggable="true" id="amino"><strong>Amino Acids: ${aminoAcids.join(", ")}</strong></div>
-                    <div class="draggable" draggable="true" id="trna"><strong>tRNA: ${trna}</strong></div>
+                    <div class="draggable" draggable="true" id="mrna" style="top: 10px; left: 10px;"><strong>mRNA: ${mrna}</strong></div>
+                    <div class="draggable" draggable="true" id="amino" style="top: 60px; left: 10px;"><strong>Amino Acids: ${aminoAcids.join(", ")}</strong></div>
+                    <div class="draggable" draggable="true" id="trna" style="top: 110px; left: 10px;"><strong>tRNA: ${trna}</strong></div>
                 </div>
             `;
             document.getElementById("results-container").innerHTML = resultHTML;
@@ -144,8 +144,6 @@
         const container = document.querySelector('.results');
         
         draggables.forEach(draggable => {
-            draggable.style.position = 'absolute';
-
             draggable.addEventListener('dragstart', (event) => {
                 event.dataTransfer.setData('text/plain', null);
                 const style = window.getComputedStyle(event.target, null);
@@ -160,7 +158,7 @@
 
         container.addEventListener('drop', (event) => {
             const offset = event.dataTransfer.getData('text/plain').split(',');
-            const draggableElement = document.querySelector('.draggable');
+            const draggableElement = event.target.closest('.draggable');
             draggableElement.style.left = (event.clientX + parseInt(offset[0], 10)) + 'px';
             draggableElement.style.top = (event.clientY + parseInt(offset[1], 10)) + 'px';
             event.preventDefault();
