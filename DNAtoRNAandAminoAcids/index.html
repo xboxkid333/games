@@ -51,6 +51,10 @@
 
         .draggable {
             cursor: move;
+            background-color: #444;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
@@ -119,13 +123,13 @@
             const aminoAcids = mrnaToAminoAcids(mrna);
             const trna = mrnaToTrna(mrna);
             const resultHTML = `
-                <div class="results draggable" draggable="true">
-                    <strong><p>mRNA: ${mrna}</p>
-                    <p>Amino Acids: ${aminoAcids.join(", ")}</p>
-                    <p>tRNA: ${trna}</p></strong>
+                <div class="results">
+                    <div class="draggable" draggable="true"><strong>mRNA: ${mrna}</strong></div>
+                    <div class="draggable" draggable="true"><strong>Amino Acids: ${aminoAcids.join(", ")}</strong></div>
+                    <div class="draggable" draggable="true"><strong>tRNA: ${trna}</strong></div>
                 </div>
             `;
-            document.getElementById("results-container").innerHTML += resultHTML;
+            document.getElementById("results-container").innerHTML = resultHTML;
             makeDraggable();
         } else {
             document.getElementById("results-container").innerHTML = "Invalid DNA sequence.";
