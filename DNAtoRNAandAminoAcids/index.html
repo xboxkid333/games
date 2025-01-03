@@ -47,6 +47,8 @@
             background-color: #333;
             text-align: left;
             position: relative;
+            height: 300px;
+            overflow: hidden;
         }
 
         .draggable {
@@ -55,6 +57,7 @@
             padding: 10px;
             border-radius: 5px;
             margin-bottom: 10px;
+            position: absolute;
         }
     </style>
 </head>
@@ -124,9 +127,9 @@
             const trna = mrnaToTrna(mrna);
             const resultHTML = `
                 <div class="results">
-                    <div class="draggable" draggable="true"><strong>mRNA: ${mrna}</strong></div>
-                    <div class="draggable" draggable="true"><strong>Amino Acids: ${aminoAcids.join(", ")}</strong></div>
-                    <div class="draggable" draggable="true"><strong>tRNA: ${trna}</strong></div>
+                    <div class="draggable" draggable="true" id="mrna"><strong>mRNA: ${mrna}</strong></div>
+                    <div class="draggable" draggable="true" id="amino"><strong>Amino Acids: ${aminoAcids.join(", ")}</strong></div>
+                    <div class="draggable" draggable="true" id="trna"><strong>tRNA: ${trna}</strong></div>
                 </div>
             `;
             document.getElementById("results-container").innerHTML = resultHTML;
@@ -138,7 +141,11 @@
 
     function makeDraggable() {
         const draggables = document.querySelectorAll('.draggable');
+        const container = document.querySelector('.results');
+        
         draggables.forEach(draggable => {
+            draggable.style.position = 'absolute';
+
             draggable.addEventListener('dragstart', (event) => {
                 event.dataTransfer.setData('text/plain', null);
                 const style = window.getComputedStyle(event.target, null);
@@ -146,12 +153,12 @@
             });
         });
 
-        document.body.addEventListener('dragover', (event) => {
+        container.addEventListener('dragover', (event) => {
             event.preventDefault();
             return false;
         });
 
-        document.body.addEventListener('drop', (event) => {
+        container.addEventListener('drop', (event) => {
             const offset = event.dataTransfer.getData('text/plain').split(',');
             const draggableElement = document.querySelector('.draggable');
             draggableElement.style.left = (event.clientX + parseInt(offset[0], 10)) + 'px';
