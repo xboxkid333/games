@@ -48,70 +48,70 @@
     </form>
     <div id="results"></div>
     <script>
-        document.getElementById("dna-form").addEventListener("submit", function(event) {
-            event.preventDefault();
-            const inputDNA = document.getElementById("dna-sequence").value.toUpperCase();
-            const validNucleotides = new Set(["A", "T", "C", "G"]);
+    document.getElementById("dna-form").addEventListener("submit", function(event) {
+        event.preventDefault();
+        const inputDNA = document.getElementById("dna-sequence").value.toUpperCase();
+        const validNucleotides = new Set(["A", "T", "C", "G"]);
 
-            function dnaToMrna(dna) {
-                const translation = { 'A': 'U', 'T': 'A', 'C': 'G', 'G': 'C' };
-                return dna.split('').map(nucleotide => translation[nucleotide]).join('');
-            }
+        function dnaToMrna(dna) {
+            const translation = { 'A': 'U', 'T': 'A', 'C': 'G', 'G': 'C' };
+            return dna.split('').map(nucleotide => translation[nucleotide]).join('');
+        }
 
-            function mrnaToAminoAcids(mrna) {
-                const codonTable = {
-                    'AUG': 'M', 'UUU': 'F', 'UUC': 'F',
-                    'UUA': 'L', 'UUG': 'L', 'UCU': 'S', 'UCC': 'S',
-                    'UCA': 'S', 'UCG': 'S', 'UAU': 'Y', 'UAC': 'Y',
-                    'UGU': 'C', 'UGC': 'C', 'UGG': 'W', 'UAA': 'STOP',
-                    'UAG': 'STOP', 'UGA': 'STOP', 'CUU': 'L', 'CUC': 'L',
-                    'CUA': 'L', 'CUG': 'L', 'CCU': 'P', 'CCC': 'P',
-                    'CCA': 'P', 'CCG': 'P', 'CAU': 'H', 'CAC': 'H',
-                    'CAA': 'Q', 'CAG': 'Q', 'CGU': 'R', 'CGC': 'R',
-                    'CGA': 'R', 'CGG': 'R', 'AUU': 'I', 'AUC': 'I',
-                    'AUA': 'I', 'ACU': 'T', 'ACC': 'T', 'ACA': 'T',
-                    'ACG': 'T', 'AAU': 'N', 'AAC': 'N', 'AAA': 'K',
-                    'AAG': 'K', 'AGU': 'S', 'AGC': 'S', 'AGA': 'R',
-                    'AGG': 'R', 'GUU': 'V', 'GUC': 'V', 'GUA': 'V',
-                    'GUG': 'V', 'GCU': 'A', 'GCC': 'A', 'GCA': 'A',
-                    'GCG': 'A', 'GAU': 'D', 'GAC': 'D', 'GAA': 'E',
-                    'GAG': 'E', 'GGU': 'G', 'GGC': 'G', 'GGA': 'G',
-                    'GGG': 'G'
-                    };
+        function mrnaToAminoAcids(mrna) {
+            const codonTable = {
+                'AUG': 'M (Methionine - Start)', 'UUU': 'F (Phenylalanine)', 'UUC': 'F (Phenylalanine)',
+                'UUA': 'L (Leucine)', 'UUG': 'L (Leucine)', 'UCU': 'S (Serine)', 'UCC': 'S (Serine)',
+                'UCA': 'S (Serine)', 'UCG': 'S (Serine)', 'UAU': 'Y (Tyrosine)', 'UAC': 'Y (Tyrosine)',
+                'UGU': 'C (Cysteine)', 'UGC': 'C (Cysteine)', 'UGG': 'W (Tryptophan)', 'UAA': 'STOP (Stop Codon)',
+                'UAG': 'STOP (Stop Codon)', 'UGA': 'STOP (Stop Codon)', 'CUU': 'L (Leucine)', 'CUC': 'L (Leucine)',
+                'CUA': 'L (Leucine)', 'CUG': 'L (Leucine)', 'CCU': 'P (Proline)', 'CCC': 'P (Proline)',
+                'CCA': 'P (Proline)', 'CCG': 'P (Proline)', 'CAU': 'H (Histidine)', 'CAC': 'H (Histidine)',
+                'CAA': 'Q (Glutamine)', 'CAG': 'Q (Glutamine)', 'CGU': 'R (Arginine)', 'CGC': 'R (Arginine)',
+                'CGA': 'R (Arginine)', 'CGG': 'R (Arginine)', 'AUU': 'I (Isoleucine)', 'AUC': 'I (Isoleucine)',
+                'AUA': 'I (Isoleucine)', 'ACU': 'T (Threonine)', 'ACC': 'T (Threonine)', 'ACA': 'T (Threonine)',
+                'ACG': 'T (Threonine)', 'AAU': 'N (Asparagine)', 'AAC': 'N (Asparagine)', 'AAA': 'K (Lysine)',
+                'AAG': 'K (Lysine)', 'AGU': 'S (Serine)', 'AGC': 'S (Serine)', 'AGA': 'R (Arginine)',
+                'AGG': 'R (Arginine)', 'GUU': 'V (Valine)', 'GUC': 'V (Valine)', 'GUA': 'V (Valine)',
+                'GUG': 'V (Valine)', 'GCU': 'A (Alanine)', 'GCC': 'A (Alanine)', 'GCA': 'A (Alanine)',
+                'GCG': 'A (Alanine)', 'GAU': 'D (Aspartic Acid)', 'GAC': 'D (Aspartic Acid)', 'GAA': 'E (Glutamic Acid)',
+                'GAG': 'E (Glutamic Acid)', 'GGU': 'G (Glycine)', 'GGC': 'G (Glycine)', 'GGA': 'G (Glycine)',
+                'GGG': 'G (Glycine)'
+                };
 
-                const aminoAcids = [];
-                for (let i = 0; i < mrna.length; i += 3) {
-                    const codon = mrna.substring(i, i + 3);
-                    if (codon in codonTable) {
-                        const aminoAcid = codonTable[codon];
-                        if (aminoAcid === 'STOP') {
-                            aminoAcids.push(aminoAcid);
-                            continue;
-                        }
+            const aminoAcids = [];
+            for (let i = 0; i < mrna.length; i += 3) {
+                const codon = mrna.substring(i, i + 3);
+                if (codon in codonTable) {
+                    const aminoAcid = codonTable[codon];
+                    if (aminoAcid === 'STOP') {
                         aminoAcids.push(aminoAcid);
+                        continue;
                     }
+                    aminoAcids.push(aminoAcid);
                 }
-                return aminoAcids;
             }
+            return aminoAcids;
+        }
 
-            function mrnaToTrna(mrna) {
-                const translation = { 'A': 'U', 'U': 'A', 'C': 'G', 'G': 'C' };
-                return mrna.split('').map(nucleotide => translation[nucleotide]).join('');
-            }
+        function mrnaToTrna(mrna) {
+            const translation = { 'A': 'U', 'U': 'A', 'C': 'G', 'G': 'C' };
+            return mrna.split('').map(nucleotide => translation[nucleotide]).join('');
+        }
 
-            if ([...inputDNA].every(nucleotide => validNucleotides.has(nucleotide))) {
-                const mrna = dnaToMrna(inputDNA);
-                const aminoAcids = mrnaToAminoAcids(mrna);
-                const trna = mrnaToTrna(mrna);
-                document.getElementById("results").innerHTML = `
-                    <strong><p>mRNA: ${mrna}</p>
-                    <p>Amino Acids: ${aminoAcids.join(", ")}</p>
-                    <p>tRNA: ${trna}</p></strong>
-                `;
-            } else {
-                document.getElementById("results").textContent = "Invalid DNA sequence.";
-            }
-        });
-    </script>
+        if ([...inputDNA].every(nucleotide => validNucleotides.has(nucleotide))) {
+            const mrna = dnaToMrna(inputDNA);
+            const aminoAcids = mrnaToAminoAcids(mrna);
+            const trna = mrnaToTrna(mrna);
+            document.getElementById("results").innerHTML = `
+                <strong><p>mRNA: ${mrna}</p>
+                <p>Amino Acids: ${aminoAcids.join(", ")}</p>
+                <p>tRNA: ${trna}</p></strong>
+            `;
+        } else {
+            document.getElementById("results").textContent = "Invalid DNA sequence.";
+        }
+    });
+</script>
 </body>
 </html>
