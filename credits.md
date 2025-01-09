@@ -48,6 +48,7 @@
 - **PC Breakdown** – IDK  dont sue me (please)
 - **Poly Track** – [kodub](https://kodub.itch.io/polytrack)  
 - **Push Your Luck** – [Coolmath Games](https://www.coolmathgames.com/0-push-your-luck)  
+- **Real Flight Simulator** – [Freeze Nova](https://www.freezenova.com/real-flight-simulator)
 - **Retro Bowl** – [New Star Games, 2020](https://www.newstargames.com/retro-bowl)  
 - **Riddle School Series** – [Jonochrome (JonBro), 2006-2016](https://jonochrome.itch.io/)  
 - **Rooftopsnipers** – [neweichgames](https://neweichgames.com/)  
