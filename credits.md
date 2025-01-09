@@ -60,6 +60,8 @@
 - **Sonic CD** - [Sega, 1993](https://www.sega.com/)
 - **Sort the Court** – [Graeme Borland, 2017](https://graemeborland.itch.io/sort-the-court)  
 - **Space Company** – [sparticle999](https://github.com/sparticle999/SpaceCompany)  
+- **Stickman Destruction** – [Kdata1](https://kdata1.com/2024/03/stickman-destruction/)
+- **Stickman Ragdoll Playground** – [KBH Games](https://kbhgames.com/game/stickman-ragdoll-playground)
 - **Subway Surfers** – [SYBO Games & Kiloo, 2012](https://subwaysurfers.com/)  
 - **Superhot** – [SUPERHOT Team, 2016](https://superhotgame.com/)  
 - **Tanuki Sunset** – [Rewind Games, 2020](https://rewindgames.itch.io/tanuki-sunset)  

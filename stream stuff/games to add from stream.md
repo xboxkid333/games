@@ -18,11 +18,11 @@
 * [x] | [n-gon](https://1kh0.github.io/projects/n-gon/index.html) |  
 * [x] | [getaway shootout](https://1kh0.github.io/projects/getaway-shootout/index.html) |  
 * [x] | [bloxors](https://1kh0.github.io/projects/bloxors/index.html) |  
-* [ ] | more sandbox/car games |  
-* [ ] | More classic flash games | 
+* [x] | more sandbox/car games |  
+* [x] | More classic flash games | 
 * [ ] | More run games |  
-* [ ] | clicker heros |  
-* [ ] | [zelda stuff idk](https://github.com/search?q=zelda+clone+language%3AHTML+&type=repositorie) |  
+* [x] | clicker heros |  
+* [x] | [zelda stuff idk](https://github.com/search?q=zelda+clone+language%3AHTML+&type=repositorie) |  
 * [ ] | granny |  
 * [ ] | fnaf 1 and 4 |  
 * [x] | [2 min football](https://2minutefootball.github.io) |  
