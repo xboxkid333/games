@@ -42,17 +42,6 @@
     <meta name="HandheldFriendly" content="true" />
 
     <title>Five Nights at Freddys 1</title>
-
-    <script>
-      // Detection of old browsers that do not support the canvas element
-      // Falls back to a default page
-      if (!document.createElement("canvas").getContext) {
-        window.open("http://www.clickteam.com/html5-fallback", "_self");
-      }
-    </script>
-
-    <!-- EXTRASOURCES -->
-    <!-- Loads the Javascript code...-->
     <script src="src/Runtime.js"></script>
 
     <script>
@@ -96,7 +85,8 @@
         // Calls the runtime
         // First parameter : name of the canvas element
         // Second parameter : path to the cch file. Images and sounds must lay beside this file
-        new Runtime("MMFCanvas", "resources/FNAF1HTML5.cch");
+        new Runtime("MMFCanvas", "FNAF-1/resources/FNAF1HTML5.cch");
+        new Runtime("MFFCanvas", "FNAF-1/resources/FNAF1HTML5.cc1");
       }
       // RUNTIMESTARTEND
     </script>
