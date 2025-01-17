@@ -1,7 +1,10 @@
 # Hi
+
 ---
+
 | ADDED | GAME |  
 |------|--------|  
+
 * [x] | [Cluster Rush](https://github.com/thepizzaeditions/thepizzaeditions.github.io) |  
 * [ ] |  rest of wheely |  
 * [ ] |  roblox... somehow |  
@@ -19,7 +22,7 @@
 * [x] | [getaway shootout](https://1kh0.github.io/projects/getaway-shootout/index.html) |  
 * [x] | [bloxors](https://1kh0.github.io/projects/bloxors/index.html) |  
 * [x] | more sandbox/car games |  
-* [x] | More classic flash games | 
+* [x] | More classic flash games |  
 * [ ] | More run games |  
 * [x] | clicker heros |  
 * [x] | [zelda stuff idk](https://github.com/search?q=zelda+clone+language%3AHTML+&type=repositorie) |  
@@ -27,7 +30,7 @@
 * [ ] | fnaf 1 and 4 |  
 * [x] | [2 min football](https://2minutefootball.github.io) |  
 * [ ] | the 2020 game online |  
-* [ ] | https://github.com/geometrylite/geometrylite.github.io |  
+* [ ] | <https://github.com/geometrylite/geometrylite.github.io> |  
 * [ ] | fix crossy road |  
 * [ ] | mr mine |  
 * [x] | [sonic](https://github.com/TWS2401/Sonic-CD-WASM?tab=readme-ov-file)(make a console log saying "thanks ethan564571") |  
@@ -43,4 +46,3 @@
 * [ ] | [drive mad](https://poki.com/en/g/drive-mad) |  
 * [ ] | [sandtrix](https://www.crazygames.com/game/sandtrix) |  
 * [ ] | [Drift game idk multiplayer](https://www.twoplayergames.org/game/multiplayer-drift) |  
-
