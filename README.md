@@ -6,7 +6,7 @@
 ## Markdown files and stuff
 - #### [Game Statuses](Statuses.md)
 - #### [Credits](credits.md)
-- #### [Files from my recent stream](https://github.com/Nintendoboi222/games/tree/main/stream%20stuff)
+- #### [Files from my recent stream](https://github.com/Nintendoboi2222/games/tree/main/stream%20stuff)
 ## Links
 - #### [Nintendoboi22](Nintendoboi22.github.io)
 - #### [Nintendoboi222](Nintendoboi222.github.io)
