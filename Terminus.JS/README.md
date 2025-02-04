@@ -24,3 +24,6 @@ It is recommended to try using this game on the about:blank page as it has liter
 
 
 # https://rando-idiot.github.io/Terminus.JS/
+
+
+(only game where i have permission from the owner and stuff fr)
